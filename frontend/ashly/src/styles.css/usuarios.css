@@ -1,0 +1,23 @@
+.container-user{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Roboto;
+  
+}
+
+.card{
+    display: inline-block;
+    margin: 5px;
+    height: 400px;
+    width: 350px;
+    overflow: hidden;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #ECE9E6;
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  }
+  
+  
+

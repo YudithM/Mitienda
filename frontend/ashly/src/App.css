@@ -1,0 +1,25 @@
+*{
+  box-sizing: borde-box;
+}
+.App{
+  max-width: 1230px;
+  width: 100%;
+  margin: auto;
+  box-shadow: 0 2px 6px #555;
+  padding: 0 15px;
+}
+
+h1{
+  text-align: center;
+
+}
+
+p{
+  font-size: black;
+  font-family: sans-serif;
+}
+
+.map {
+  height: 400px; /* The height is 400 pixels */
+  width: 100%; 
+}

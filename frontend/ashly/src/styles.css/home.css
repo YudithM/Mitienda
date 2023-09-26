@@ -1,0 +1,29 @@
+.contenedor-contacto {
+    margin: 40px ;
+    margin-top: 40px;
+    display: flex;
+    background:rgb(239, 229, 241);overflow: hidden;
+    box-shadow: 5px 5px 10px #565656a5, -5px -5px 10px #8a8a8a;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+   
+  }
+  .contacto {
+    width: 350px;
+    height: 250px;
+    /*text-align: center;*/
+    padding: 40px;
+    /*justify-content: center;
+    align-items: center;*/
+    color: #a30758;
+  }
+
+  .contact-link {
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+  }
