@@ -14,7 +14,7 @@ function EditarProducto(){
     const navegar = useNavigate()
     useEffect(()=>{
         
-       axios.put('http://localhost:8080/api/productos/actualizar/' + params.id).then(res=>{
+       axios.put('https://backend-deploy-69kg.onrender.com/api/productos/actualizar/' + params.id).then(res=>{
                 let dataProducto = res.data
             
             console.log('Data del producto',dataProducto.data.nombre)
@@ -31,7 +31,7 @@ function EditarProducto(){
             stock:stock,
 
         }
-        axios.put('http://localhost:8080/api/productos/actualizar/' + params.id,productUpdate).then(res=>{
+        axios.put('https://backend-deploy-69kg.onrender.com/api/productos/actualizar/' + params.id,productUpdate).then(res=>{
             console.log(res.data)
             alert('Producto actualizado con éxito!')
             navegar("/")

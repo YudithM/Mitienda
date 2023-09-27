@@ -15,13 +15,13 @@ function Productos() {
   }, []);
 
   const obtenerProducto = async () => {
-    const producto = (await axios.get("http://localhost:8080/api/productos")).data;
+    const producto = (await axios.get('https://backend-deploy-69kg.onrender.com/api/productos')).data;
     console.log(producto);
     setData(producto);
   };
 
   function borrarProducto(idProducto){
-    axios.delete('http://localhost:8080/api/productos/eliminar/' + idProducto).then(res=>{
+    axios.delete('https://backend-deploy-69kg.onrender.com/api/productos/eliminar/' + idProducto).then(res=>{
       console.log(res.data)
       alert('Producto borrado')
       navegar(0)

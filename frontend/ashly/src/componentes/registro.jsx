@@ -16,7 +16,7 @@ function AgregarUsuario(){
             email:email,
             password:password
         }
-        axios.post('http://localhost:8080/api/usuarios', newUser)
+        axios.post('https://backend-deploy-69kg.onrender.com/api/usuarios', newUser)
         .then(res=> console.log(res.data))
         .then(err=>console.log(err))
         alert('Usuario Agregado a la DB')
